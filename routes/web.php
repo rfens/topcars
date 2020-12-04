@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('public.index');
 });
+
+Route::get('/cars', function () {
+    return view('public.cars');
+});
+
