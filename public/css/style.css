@@ -1,0 +1,48 @@
+/*Fonts*/
+@font-face {
+    font-family: 'Fugaz One';
+    src: url('../fonts/FugazOne-Regular.woff2') format('woff2'),
+    url('../fonts/FugazOne-Regular.woff') format('woff'),
+    url('../fonts/FugazOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/OpenSans-Regular.woff') format('woff'),
+    url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    background: #00eaff;
+}
+h1, h2, h3{
+    font-family: "Fugaz One";
+}
+p, li{
+    font-family: "Open Sans";
+}
+
+.mySlides {
+    display: none;
+    width: 800px;
+    height: 400px;
+}
+.container{
+    background: #00FFFF;
+}
+
+footer .container{
+    background: #00eaff;
+}
+
+nav{
+    background: #00eaff;
+}
+body{
+    background: #00eaff;
+}

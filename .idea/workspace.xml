@@ -144,6 +144,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\topcars\public\css" />
+      <recent name="C:\xampp\htdocs\topcars\public" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -163,7 +169,8 @@
       <workItem from="1606829352735" duration="5018000" />
       <workItem from="1606984669653" duration="78000" />
       <workItem from="1607072197227" duration="1320000" />
-      <workItem from="1607073544606" duration="3612000" />
+      <workItem from="1607073544606" duration="3614000" />
+      <workItem from="1607168561755" duration="4057000" />
     </task>
     <servers />
   </component>

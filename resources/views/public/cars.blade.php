@@ -4,6 +4,5 @@
 @endsection
 
 @section('content')
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>hoi ik ben renzo</p>
+    <h1>Ons assortiment van auto's</h1>
 @endsection
