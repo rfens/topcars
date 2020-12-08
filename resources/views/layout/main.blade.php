@@ -42,14 +42,19 @@
 <footer>
     <div class="container" id="footerContainer">
         <div class="row">
-            <div class="col-sm">
+            <div class="left">
                 <ul>
                     <li><a href="/cars">Cars</a></li>
                     <li><a href="/reserveren">Reserveren</a></li>
                     <li><a href="/dashboard">Dashboard</a></li>
                     <li><a href="/factuur">Factuur</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li><a href="#">Privacy</a></li>
                 </ul>
             </div>
+        </div>
+        <div class="copyright">
+            <p>~©Curio2020</p>
         </div>
     </div>
 </footer>

@@ -29,24 +29,30 @@
         }
     </script>
 
+        <div class="ervaringen">
+            <h2>Ervaringen</h2>
+            <div class="row">
+                <span class="border">
+                    <div class="col-sm" id="review">
+                        <p>Super website, makkelijk te gebruiken en supergoedkoop!!</p>
+                        <p>~Jeroen</p>
+                    </div>
+                </span>
 
-        <h2>Ervaringen</h2>
-        <div class="row">
-            <div class="col-sm" id="review">
-                <p>Super website, makkelijk te gebruiken en supergoedkoop!!</p>
-                <p>~Jeroen</p>
+                <span class="border">
+                    <div class="col-sm" id="review">
+                        <p>Super luxe auto voor weinig geld, echt een aanrader</p>
+                        <p>~Eva</p>
+                    </div>
+                </span>
+
+                <span class="border">
+                    <div class="col-sm" id="review">
+                        <p>Gewoon perfect, top auto!</p>
+                        <p>~Jan</p>
+                    </div>
+                </span>
             </div>
-
-            <div class="col-sm" id="review">
-                <p>Super luxe auto voor weinig geld, echt een aanrader</p>
-                <p>~Eva</p>
-            </div>
-
-            <div class="col-sm" id="review">
-                <p>Gewoon perfect</p>
-                <p>~Jan</p>
-            </div>
-
         </div>
 @endsection
 
