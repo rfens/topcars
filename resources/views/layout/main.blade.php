@@ -40,7 +40,7 @@
 
 </body>
 <footer>
-    <div class="container">
+    <div class="container" id="footerContainer">
         <div class="row">
             <div class="col-sm">
                 <ul>
