@@ -18,8 +18,12 @@
     font-display: swap;
 }
 *{
-    background: #00eaff;
+    background: #06b8ba;
 }
+nav {
+    background: #2eb6dd;
+}
+
 h1, h2, h3{
     font-family: "Fugaz One";
 }
@@ -32,17 +36,4 @@ p, li{
     width: 800px;
     height: 400px;
 }
-.container{
-    background: #00FFFF;
-}
 
-footer .container{
-    background: #00eaff;
-}
-
-nav{
-    background: #00eaff;
-}
-body{
-    background: #00FFFF;
-}

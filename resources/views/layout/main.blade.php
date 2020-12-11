@@ -10,34 +10,45 @@
 
     <title>@yield('title')</title>
 </head>
+
+<body>
 <header>
     <div class="container">
-    <nav class="navbar navbar-expand" id="nav">
-        <a class="navbar-brand" href="/"><h1>Topcars</h1></a>
-        <div>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/cars">Cars</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/reserveren">Reserveren</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/dasboard">Dashboard</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <nav class="navbar navbar-expand" id="nav">
+            <a class="navbar-brand" href="/"><h1>Topcars</h1></a>
+            <div>
+                <ul class="navbar-nav">
+                <span class="border">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cars">Cars</a>
+                    </li>
+                </span>
+                    <span class="border">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/reserveren">Reserveren</a>
+                    </li>
+                </span>
+                    <span class="border">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dasboard">Dashboard</a>
+                    </li>
+                </span>
+                    <span class="border">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dasboard">Dashboard</a>
+                    </li>
+                </span>
+                    <span class="border">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/dasboard">Dashboard</a>
+                    </li>
+                </span>
+                </ul>
+            </div>
+        </nav>
     </div>
 </header>
-<body>
-
-
-<div class="container">
     @yield('content')
-</div>
-
-
 </body>
 <footer>
     <div class="container" id="footerContainer">
