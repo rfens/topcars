@@ -21,3 +21,7 @@ Route::get('/cars', function () {
     return view('public.cars');
 });
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
